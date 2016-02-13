@@ -23,7 +23,10 @@ header h1{
 	text-align: center;
 }
 
+
+/*artist profile styling*/
 #about {
+	width: 200px;
 	padding: 2px 15px 2px 15px;
 	position: fixed;
 	top: 0px;
@@ -35,6 +38,14 @@ header h1{
 	box-shadow: -3px 3px 8px #292F2B;
 }
 
+#what p {
+	padding: 0;
+	margin: 0;
+	line-height: 18px;
+}
+
+
+/*image gallery styling*/
 #gallery img {
 	margin: 30px;
 	margin-top: 10px;
@@ -55,10 +66,11 @@ header h1{
 	-webkit-filter: grayscale(20);
 }
 
+
+
 /*modal name font size/style*/
-h2 {
-	padding: 0;
-	margin: 0;
+.name {
+	font-size: 30px;
 	text-decoration: underline;
 }
 
@@ -83,8 +95,10 @@ h2 {
 #lightbox-image {
 	width: 650px;
 	border: 2px solid rgba(41,47,43, .5);
+
 }
 /*End of lightbox styling*/
+
 
 
 /*Modal Styling*/
@@ -126,3 +140,8 @@ h2 {
 	cursor: pointer;
 }
 /*End of Modal Styling*/
+
+
+
+
+
