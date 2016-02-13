@@ -1,0 +1,63 @@
+body {
+	background-color: #dedede;
+}
+
+header {
+	text-align: center;
+	margin: 100px 10px 70px 10px;
+}
+
+#container {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#about {
+	width: 300px;
+	height: 100px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+}
+
+#gallery img {
+	margin: 30px;
+	filter: grayscale(60%);
+-webkit-filter: grayscale(60%);
+-moz-filter: grayscale(60%);
+filter: grayscale(60%);
+-webkit-filter: grayscale(.6);
+}
+
+#gallery img:hover {
+filter: grayscale(0%);
+-webkit-filter: grayscale(0%);
+-moz-filter: grayscale(0%);
+filter: grayscale(0%);
+-webkit-filter: grayscale(0);
+}
+
+
+/*Lightbox Styling*/
+#lightbox-outer{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	background-color: rgba(0,0,0,0.5);
+	display: none;
+}
+
+#lightbox-inner{
+	text-align: center;
+	opacity: 1;
+}
+
+#lightbox-image {
+	width: 650px;
+	border: 2px solid;
+}
