@@ -30,7 +30,7 @@ $(document).ready(function(){
 	}
 
 
-
+//modal code
 	$(".modal-link").click(function(e){
 		
 		var modal = $("#modal-image");
@@ -39,26 +39,25 @@ $(document).ready(function(){
 
 		$('#modal-outer').show();
 
-		// $("#change").click(function(){		
-		// 	$("#modal-outer").hide();
-		// });
 		$("#close").click(function(){		
 			$("#modal-outer").hide();
 		});
-	
+
+	});
+
+//function to center modal vertically
 	function centerModal(modal) {
 
 		modal.ready(function(){
 			var page_height = $(window).height();
 			var modal_height = modal.height();
 			var modal_height_offset = ( page_height - modal_height ) / 2;
-			console.log(modal_height_offset);
 			$('#modal-inner').css("margin-top", modal_height_offset);
 		});
 	}
 
+//function to change edit the page via the #about modal
 
-	});
 
 
 
