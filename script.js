@@ -57,11 +57,12 @@ $(document).ready(function(){
 	}
 
 //function to change edit the page via the #about modal
-
 	$('button').click(function(e){
 		var newName = $('#input').val();
-		$('.name').text(newName);
-		$("#modal-outer").hide();
+			if (newName.length >0 ) {
+				$('.name').text(newName);
+				$("#modal-outer").hide();
+			}
 	});
 
 
